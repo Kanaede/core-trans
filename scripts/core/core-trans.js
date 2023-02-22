@@ -9,3 +9,7 @@ const invincibleCore = extend(CoreBlock, "invincible-core", {
 
     drawPlace(x, y, rotation, valid) {},
 });
+lib.setBuildingSimple(invincibleCore, CoreBlock.CoreBuild, {
+    damage(damage) {  },
+    handleDamage(tile, amount) { return 0; },
+});
