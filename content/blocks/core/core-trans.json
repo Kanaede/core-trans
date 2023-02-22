@@ -9,5 +9,7 @@
     "requirements": [],
     "category": "effect",
     "research": "core-shard",
-    "unitType": "alpha"
+    "unitType": "alpha",
+    "unitCapModifier": 0,
+    "replaceable": false
 }
