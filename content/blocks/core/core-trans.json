@@ -16,5 +16,7 @@
     "unitType": "alpha",
     "unitCapModifier": 0,
     "replaceable": false,
-    "coreMerge": false
+    "coreMerge": false,
+
+    "type": "CoreBlock"
 }
