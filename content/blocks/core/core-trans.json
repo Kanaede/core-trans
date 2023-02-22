@@ -1,15 +1,20 @@
 {
-    "size": 3,
+    "size": 5,
     "hasItems": true,
     "unloadable": true,
     "breakable": true,
     "rebuildable": false,
     "health": 1700,
     "itemCapacity": 10,
-    "requirements": [],
+    "requirements": [
+        {"item":"copper","amount":1000},
+        {"item":"lead","amount":1000},
+        {"item":"silicon","amount":500}
+    ],
     "category": "effect",
     "research": "core-shard",
     "unitType": "alpha",
     "unitCapModifier": 0,
-    "replaceable": false
+    "replaceable": false,
+    "coreMerge": false
 }
