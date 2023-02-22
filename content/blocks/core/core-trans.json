@@ -18,5 +18,6 @@
     "replaceable": false,
     "coreMerge": false,
 
-    "type": "CoreBlock"
+    "type": "CoreBlock",
+    "isFirstTier": true
 }
