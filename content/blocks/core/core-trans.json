@@ -1,0 +1,12 @@
+{
+    "size": 3,
+    "hasItems": true,
+    "unloadable": true,
+    "breakable": true,
+    "rebuildable": false,
+    "health": 1700,
+    "itemCapacity": 10,
+    "requirements": [],
+    "category": "effect",
+    "research": "core-shard"
+}

@@ -1,0 +1,14 @@
+{
+
+    // Copyright - Don't copy this mod or change this file without permission
+
+    "name": "core-trans",
+    "displayName": "Core Transportation",
+    "author": "Kanade",
+    "version": "M.141.2 - v0.1",
+    "minGameVersion": 141.2,
+    "description": "",
+    "dependencies": [],
+    "hidden": false,
+    "hideBrowser": false
+}
