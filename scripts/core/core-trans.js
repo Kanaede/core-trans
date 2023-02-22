@@ -1,6 +1,6 @@
 var lib = require('core/lib');
 
-const invincibleCore = extend(CoreBlock, "invincible-core", {
+const coreTrans = extend(CoreBlock, "core-trans", {
     canBreak(tile) { return Vars.state.teams.cores(tile.team()).size > 1; },
     canReplace(other) { return other.alwaysReplace; },
     canPlaceOn(tile, team) { return true; },
@@ -9,7 +9,7 @@ const invincibleCore = extend(CoreBlock, "invincible-core", {
 
     drawPlace(x, y, rotation, valid) {},
 });
-lib.setBuildingSimple(invincibleCore, CoreBlock.CoreBuild, {
+lib.setBuildingSimple(coreTrans, CoreBlock.CoreBuild, {
     damage(damage) {  },
     handleDamage(tile, amount) { return 0; },
 });
