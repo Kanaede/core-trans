@@ -15,9 +15,5 @@
     "research": "core-shard",
     "unitType": "alpha",
     "unitCapModifier": 0,
-    "replaceable": false,
-    "coreMerge": false,
-
-    "type": "CoreBlock",
-    "isFirstTier": true
+    "replaceable": false
 }
